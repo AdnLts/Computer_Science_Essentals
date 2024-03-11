@@ -22,7 +22,9 @@ elif user_choice == "2":
     print("What is your number?")
     temp_input = input("->")
     #conversion: (C × 9/5) + 32 = F
-    temp_output = (float(temp_input)*(5/9))+32
+    temp_output = (float(temp_input)*(9/5))+32
     print(temp_output," F")
+elif user_choice == "-7":
+    print("That wont work here.")
 else:
     print("Invalid Selection, please try again")
